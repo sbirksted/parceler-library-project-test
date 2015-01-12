@@ -8,10 +8,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import org.parceler.Parcels;
+import org.parceler.ParcelClass;
 
 import test.com.library.BaseObject;
 
-
+@ParcelClass(BaseObject.class)
 public class MainActivity extends ActionBarActivity {
 
     @Override
